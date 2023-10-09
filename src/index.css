@@ -1,0 +1,52 @@
+/* all the tailwind css links */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body tag */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #070707; /* Background color similar to Apple Contacts */
+  color: #333; /* Text color similar to Apple Contacts */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styling the scrollbar */
+/* Webkit */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width to your preference */
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0e0e0e; /* Scrollbar thumb color */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(9, 9, 9); /* Scrollbar thumb color on hover */
+}
+
+/* Firefox */
+/* You can style the scrollbar in Firefox using scrollbar-width and scrollbar-color properties */
+/* Example:
+   scrollbar-width: thin;
+   scrollbar-color: #d1d1d1 #f5f5f5;
+*/
+
+/* Edge */
+/* You can style the scrollbar in Microsoft Edge using -ms-overflow-style property */
+/* Example:
+   -ms-overflow-style: none;
+   scrollbar-width: thin;
+   scrollbar-color: #d1d1d1 #f5f5f5;
+*/
